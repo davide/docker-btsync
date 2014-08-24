@@ -15,7 +15,7 @@ SECRET="$2"
 echo "Starting btsync to share $DIR using $SECRET as secret."
 
 echo "{
-    \"device_name\": \"Sync Server\",
+    \"device_name\": \"Sync Server ($DIR)\",
     \"listening_port\": 55555,
     \"storage_path\": \"/btsync/.sync\",
     \"pid_file\": \"/var/run/btsync/btsync.pid\",
